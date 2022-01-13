@@ -1,0 +1,61 @@
+.movie {
+  text-align: center;
+}
+
+.body-container {
+  padding: 1vh;
+  min-height: 100vh;
+  min-width: min-content;
+  background-color: #61dafb7c;
+}
+
+.banner-background {
+  padding: 5vh;
+  min-width: 50vw;
+  background-color: #c0c0c0;
+  background-image: url('../image/cube.png');
+}
+
+.banner {
+  min-height: 10vh;
+  background-color: #c4b1cccc;
+  display: flex;
+  justify-content: center;
+}
+
+.banner > img {
+  margin: 1vw;
+  min-height: 50vh;
+}
+
+.banner-info-title {
+  text-align: center !important;
+}
+
+.banner-info {
+  font-size: calc(10px + 2vmin);
+  color: rgb(94, 74, 74);
+  text-align: initial;
+}
+
+.search-option-header {
+  margin-top: 3vw;
+  margin-left: 2vw;
+  text-align: initial;
+}
+
+.search-option-container {
+  min-height: 50vh;
+  background-color: #c0c0c0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.search-option-title {
+  min-height: 5vh;
+  min-width: 10vw;
+  background-color: #303030;
+  color: rgb(219, 219, 219);
+}

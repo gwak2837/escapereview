@@ -1,0 +1,42 @@
+
+
+.nav a {
+  margin: 0.5vw;
+  padding: 0.5vw;
+  text-decoration: none;
+  color: darksalmon;
+  text-align: center;
+  font-weight: 600;
+}
+
+.logo {
+  height: calc(25px + 2.5vmin);
+}
+
+.main-menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu-container :not(:last-child) {
+  margin-right: 20px;
+}
+
+.main-menu {
+  padding: 2vw;
+}
+
+.escape-cafe-search {
+  width: 20vw;
+  min-height: 5vh;
+  padding: 10px;
+}
+
+.header-util-container {
+  margin-right: 10px;
+  display: flex;
+}
+
+.header-util {
+  padding: 1vw;
+}
